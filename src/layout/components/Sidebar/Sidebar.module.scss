@@ -1,0 +1,46 @@
+.wrapper {
+  height: 100vh;
+  background-color: orange;
+  position: fixed;
+  width: var(--width-sidebar);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-right: 1px solid gray;
+}
+
+.link {
+  --radius: 40px;
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  height: var(--radius);
+  justify-content: center;
+  margin: 5px 0;
+  padding: 10px 0;
+  width: var(--radius);
+}
+
+.icon {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  &:hover{
+    font-size: 23px;
+  }
+}
+
+.active{
+  background-color: black;
+  color: white;
+}
+
+.link,
+.icon {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
