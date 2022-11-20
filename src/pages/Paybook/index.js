@@ -67,6 +67,7 @@ const Paybook = () => {
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Nhập tên người cho vay hoặc vay nợ"
+          spellCheck="false"
         />
         <div className={clsx(style.menu)}>
           <p
@@ -92,6 +93,7 @@ const Paybook = () => {
           value={price}
           onChange={(e) => setPrice(e.target.value)}
           placeholder="Nhap so tien vay muon"
+          spellCheck="false"
         />
         <button className={clsx(style.btn)} onClick={handleSend}>
           Send

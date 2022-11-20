@@ -1,0 +1,87 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .form{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    p{
+        font-size: 30px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 3px solid black;
+        margin: 10px;
+    }
+}
+
+.btn{
+    width: calc(100% - 100px);
+    padding: 10px 30px;
+    font-size: 30px;
+    margin: 20px 50px;
+    border-radius: 10px;
+    background-color: white;
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+.input{
+    width: calc(100% - 100px);
+    padding: 10px 30px;
+    font-size: 30px;
+    margin: 20px 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+    margin : 10px 50px;
+    padding: 10px 100px;
+    h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    li{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+.wrapperItem{
+    display: flex;
+}
+
+.icon{
+    border: 3px solid black;
+    padding: 6px;
+    cursor: pointer;
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+.target{
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    .duration{
+        background-color: black;
+        // width: 50%;
+        height: 58px;
+
+    }
+}
