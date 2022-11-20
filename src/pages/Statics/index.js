@@ -26,7 +26,7 @@ const Statics = () => {
     };
   });
   return (
-    <div>
+    <div style={{display:"flex",justifyContent:"center",marginTop:"50px"}}>
       <ResponsiveContainer width={1000} height={600}>
         <AreaChart
           width={1000}

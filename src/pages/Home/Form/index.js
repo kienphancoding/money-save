@@ -63,6 +63,8 @@ const FormMoney = () => {
     }
     localStorage.setItem("product", JSON.stringify(arrayStorage));
     localStorage.setItem("wallets", JSON.stringify(arrayWallets));
+
+    setPrice(0)
   };
 
   const storageWallets = JSON.parse(localStorage.getItem("wallets")) ?? [];

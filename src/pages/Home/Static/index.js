@@ -52,7 +52,7 @@ const StaticHome = () => {
           <Bar dataKey="spend" fill="#82ca9d" stackId="stack" />
         </BarChart>
       </ResponsiveContainer>
-          <h1>Số tiền thu nhập tháng này</h1>
+          <h1 style={{textAlign:"center"}}>Số tiền thu nhập tháng này</h1>
       <ResponsiveContainer width={800} height={500}>
         <AreaChart
           width={500}
